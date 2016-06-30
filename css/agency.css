@@ -188,6 +188,22 @@ p.user {
 	background-image: url(../img/team/4.png);
 }
 
+.johnny {
+	background-image: url(../img/team/5.jpg);
+}
+
+.kyle {
+	background-image: url(../img/team/6.jpg);
+}
+
+.josh {
+	background-image: url(../img/team/7.jpg);
+}
+
+.yifei {
+	background-image: url(../img/team/8.jpg);
+}
+
 .loading {
 	background: url('../img/ico_loading.gif') no-repeat center center;
 }
