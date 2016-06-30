@@ -1,0 +1,70 @@
+video {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -100;
+   background: url('') no-repeat;
+   background-size: cover;
+   transition: 1s opacity;
+}
+
+.fullscreen-bg .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background: #FF5005;
+    opacity: 0.105;
+}
+
+@media screen and (max-device-width: 800px) {
+  .fullscreen-bg{
+    background: linear-gradient(
+      rgba(29, 35, 42, 0.1),
+      rgba(29, 35, 42, 0.1)
+      ),
+    url(http://www.pedul.io/vid/LibraryIndoor.gif) no-repeat;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+.pulse {
+  height: 200px;
+  width: 300px;
+  top: 40%;
+  left: 40%;
+  position: fixed;
+  z-index: 3;
+   -webkit-animation: pulsate 1s;
+    -webkit-animation-iteration-count: infinite; 
+}
+
+#circle {
+  width: 350px;
+  height: 350px;
+  background: white;
+  position: fixed;
+  top: 31%;
+  left: 38%;
+  opacity: 0.3;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 350px;
+}
+
+
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
