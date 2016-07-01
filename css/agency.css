@@ -172,6 +172,27 @@ p.user {
 	margin: 15px;
 }
 
+/*Kyle's Changes for the mc_embed and mc_group */
+/*padding for the I am a Potential checkboxes... section at top of pedul page */
+#mce-group[9993]-9993-0, #mce-group[9993]-9993-1, 
+#mce-group[9993]-9993-2 {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+/*Styles for text for I am a Potential... */
+#mc_embed_signup {
+  clear: left; 
+  font: 14px Helvetica,Arial,sans-serif;  
+  width: 300px; 
+  margin: 0 auto; 
+  padding-left: 10px;
+}
+/*Centers Subscribe button for mailchimp form */
+#mc-embedded-subscribe {
+  margin: 0px;
+}
+
 .chisa {
 	background-image: url(../img/team/1.png);
 }
