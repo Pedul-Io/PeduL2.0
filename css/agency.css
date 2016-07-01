@@ -175,22 +175,40 @@ p.user {
 /*Kyle's Changes for the mc_embed and mc_group */
 /*padding for the I am a Potential checkboxes... section at top of pedul page */
 #mce-group[9993]-9993-0, #mce-group[9993]-9993-1, 
-#mce-group[9993]-9993-2 {
+#mce-group[9993]-9993-2 label {
   display: inline-block;
   padding-right: 10px;
 }
 
+#mce-group[9993]-9993-0 {
+  margin-right: 1.5%;
+} 
+
+#mce-group[9993]-9993-1 {
+  margin-right: 5%;
+}  
+
+#mce-group[9993]-9993-2 {
+  margin-right: .5%;
+}
+
 /*Styles for text for I am a Potential... */
-#mc_embed_signup {
+#mc_embed_signup .mc-field-group label {
   clear: left; 
   font: 14px Helvetica,Arial,sans-serif;  
   width: 300px; 
-  margin: 0 auto; 
+  margin-right: 5%;
   padding-left: 10px;
 }
 /*Centers Subscribe button for mailchimp form */
 #mc-embedded-subscribe {
   margin: 0px;
+}
+
+#asterisk {
+  margin-left: 50%;
+  color: red;
+  position: absolute;
 }
 
 .chisa {
