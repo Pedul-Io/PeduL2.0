@@ -1,12 +1,3 @@
-/* html, body {
-  background-image: url(/img/logos/EDU.png);
-  background-color: #000;
-  margin: 0; 
-  padding: 0;
-  height: 100%;
-  width: 100%;
-}*/
-
 img {
 	max-width: 100%;
 	height: auto !important;
