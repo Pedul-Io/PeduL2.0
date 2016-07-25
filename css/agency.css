@@ -442,9 +442,17 @@ header {
 	color: #fff
 }
 
+
+.intro-heading {
+	 font-family: 'Source Sans Pro', sans-serif;
+	 text-align: center;
+
+}
 header .intro-text {
 	padding-top: 100px;
-	padding-bottom: 50px
+	padding-bottom: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 header .intro-text .intro-lead-in {
@@ -467,11 +475,11 @@ header .intro-text .intro-heading {
 }
 
 @media ( min-width :768px) {
-	header .intro-text {
+	header {
 		padding-top: 300px;
 		padding-bottom: 200px
 	}
-	header .intro-text .intro-lead-in {
+	header .intro-lead-in {
 		font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial,
 			sans-serif;
 		font-style: italic;
@@ -479,7 +487,7 @@ header .intro-text .intro-heading {
 		line-height: 40px;
 		margin-bottom: 25px
 	}
-	header .intro-text .intro-heading {
+	header  .intro-heading {
 		font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 		text-transform: uppercase;
 		font-weight: 700;
