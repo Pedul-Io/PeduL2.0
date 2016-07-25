@@ -463,6 +463,7 @@ header .intro-text .intro-heading {
 	font-size: 50px;
 	line-height: 50px;
 	margin-bottom: 25px
+	margin-top: 500px;
 }
 
 @media ( min-width :768px) {
