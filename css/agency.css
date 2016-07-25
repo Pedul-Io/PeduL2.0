@@ -446,6 +446,11 @@ header {
 .intro-heading {
 	 font-family: 'Source Sans Pro', sans-serif;
 	 text-align: center;
+	 text-transform: lowercase;
+	 font-weight: bold;
+	 font-size: 54px;
+	 color: #FFFAFA;
+
 
 }
 header .intro-text {
@@ -489,7 +494,7 @@ header .intro-text .intro-heading {
 	}
 	header  .intro-heading {
 		font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-		text-transform: uppercase;
+		text-transform: lowercase;
 		font-weight: 700;
 		font-size: 75px;
 		line-height: 75px;
