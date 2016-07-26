@@ -464,9 +464,10 @@ header {
 	 font-weight: bold;
 	 font-size: 54px;
 	 color: #FFFAFA;
-
-
+   margin-right: 20px;
 }
+
+
 header .intro-text {
 	padding-top: 100px;
 	padding-bottom: 50px;
