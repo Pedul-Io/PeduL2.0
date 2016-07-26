@@ -2,6 +2,11 @@ html {
   background-color: #8D6E63;
 }
 
+#fade_pedul_logo {
+  width: 100px;
+  height: 90px;
+  margin-left: 90px;
+}
 
 #pedul_logo_container {
   height: 1000px;

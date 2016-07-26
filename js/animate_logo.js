@@ -14,7 +14,6 @@ pandl.hide();
 nav_bar.hide();
 background_image.hide();
 
-
 $(document).ready(function() {
 
   edu.fadeIn(1500);
@@ -42,7 +41,5 @@ $(document).ready(function() {
     nav_bar.fadeIn(1900);
     tag_line.fadeIn(1000);
   }, 6000);
-
-  
 
 });
