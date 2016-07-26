@@ -1,5 +1,5 @@
 html {
-  background-color: #8D6E63;
+  background-color: #fff;
 }
 
 #fade_pedul_logo {
@@ -8,6 +8,7 @@ html {
   margin-left: 90px;
 }
 
+/*opening fade in and outi logo*/
 #pedul_logo_container {
   height: 1000px;
   margin-left: auto;

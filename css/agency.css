@@ -255,10 +255,14 @@ div.intro-tagline {
 }
 
 h2.tagline {
-	text-transform: lowercase;
-  font-size: 25px;
-  color: #FFFAFA;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+/*	text-transform: lowercase;*/
+  font-size: 45px;
+/*  color: #e3c796;*/
+/*  background-color: rgba(0, 0, 0, 0.3);*/
+  padding: 2px;
+  display: inline;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -463,7 +467,7 @@ header {
 	 text-transform: lowercase;
 	 font-weight: bold;
 	 font-size: 54px;
-	 color: #FFFAFA;
+	 color: #222;
    margin-right: 20px;
 }
 
