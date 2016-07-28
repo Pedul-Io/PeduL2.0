@@ -247,6 +247,20 @@ p.user {
 	background: url('../img/ico_loading.gif') no-repeat center center;
 }
 
+div.intro-tagline {
+  margin-bottom: 20px;
+  margin-top: -20px;
+  margin-left: 35px;
+
+}
+
+h2.tagline {
+	text-transform: lowercase;
+  font-size: 25px;
+  color: #FFFAFA;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
@@ -430,7 +444,7 @@ bar-default .navbar-toggle {
 }
 
 header {
-	background-image: url(../img/header/library.jpg);
+	background-image: url(../img/header/bike_in_hallway.jpg);
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
@@ -442,9 +456,22 @@ header {
 	color: #fff
 }
 
+
+.intro-heading {
+	 font-family: 'Source Sans Pro', sans-serif;
+	 text-align: center;
+	 text-transform: lowercase;
+	 font-weight: bold;
+	 font-size: 54px;
+	 color: #FFFAFA;
+
+
+}
 header .intro-text {
 	padding-top: 100px;
-	padding-bottom: 50px
+	padding-bottom: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 header .intro-text .intro-lead-in {
@@ -463,14 +490,15 @@ header .intro-text .intro-heading {
 	font-size: 50px;
 	line-height: 50px;
 	margin-bottom: 25px
+	margin-top: 500px;
 }
 
 @media ( min-width :768px) {
-	header .intro-text {
+	header {
 		padding-top: 300px;
 		padding-bottom: 200px
 	}
-	header .intro-text .intro-lead-in {
+	header .intro-lead-in {
 		font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial,
 			sans-serif;
 		font-style: italic;
@@ -478,9 +506,9 @@ header .intro-text .intro-heading {
 		line-height: 40px;
 		margin-bottom: 25px
 	}
-	header .intro-text .intro-heading {
+	header  .intro-heading {
 		font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-		text-transform: uppercase;
+		text-transform: lowercase;
 		font-weight: 700;
 		font-size: 75px;
 		line-height: 75px;

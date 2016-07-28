@@ -1,3 +1,45 @@
+html {
+  background-color: #8D6E63;
+}
+
+#fade_pedul_logo {
+  width: 100px;
+  height: 90px;
+  margin-left: 90px;
+}
+
+#pedul_logo_container {
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  font-color: blue;
+}
+
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+.edupng, .pandl {
+  height: 400px;
+  width: 450px;
+  margin: 0;
+}
+
+img.pandl{
+  width: 680px;
+  margin-left: 55px;
+  margin-right: 50px;
+  margin-top: -385px;
+}
+
+img.edupng {
+  margin-top: 50px;
+  margin-left: 160px;
+}
+
 video {
    position: fixed;
    right: 0;
