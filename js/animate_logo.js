@@ -17,7 +17,13 @@ nav_logo.hide();
 background_image.hide();
 
 $(document).ready(function() {
+  $("div").removeClass("hidden");
+  $("h2").removeClass("hidden");
 
+//  $("img").addClass("edupng");
+//  $("img").addClass("pandl");
+$("h2").addClass("intro-heading");
+  
   $(".clear").addClass("animated shake");
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

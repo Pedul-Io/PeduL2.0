@@ -8,6 +8,10 @@ html {
   margin-left: 90px;
 }
 
+.hidden * {
+  display: none;
+}
+
 /*opening fade in and outi logo*/
 #pedul_logo_container {
   height: 1000px;
