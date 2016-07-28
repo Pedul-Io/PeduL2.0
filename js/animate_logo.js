@@ -4,6 +4,7 @@ var pedul_logo = $("#pedul_logo_container");
 var nav_bar = $(".navbar.navbar-default.navbar-fixed-top");
 var intro_text = $(".intro-text");
 var pedul_head = $("a.page-scroll.log");
+var nav_logo = $("#nav-logo");
 var background_image = $("header");
 var tag_line = $(".intro-heading");
 
@@ -12,6 +13,7 @@ intro_text.hide();
 edu.hide();
 pandl.hide();
 nav_bar.hide();
+nav_logo.hide();
 background_image.hide();
 
 $(document).ready(function() {
@@ -49,6 +51,7 @@ $(document).ready(function() {
     pedul_head.fadeIn(1900);
     nav_bar.fadeIn(1900);
     tag_line.fadeIn(1000);
+    nav_logo.fadeIn(1000);
   }, 6000);
 
 });
