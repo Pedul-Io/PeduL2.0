@@ -19,10 +19,11 @@ background_image.hide();
 $(document).ready(function() {
   $("div").removeClass("hidden");
   $("h2").removeClass("hidden");
-
+  $("a").removeClass("hidden");
 //  $("img").addClass("edupng");
 //  $("img").addClass("pandl");
-$("h2").addClass("intro-heading");
+  $("a").addClass("page-scroll log");
+  $("h2").addClass("intro-heading");
   
   $(".clear").addClass("animated shake");
 
